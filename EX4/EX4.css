@@ -1,0 +1,28 @@
+span{
+    background-color: lightblue;
+    border: solid black 2px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+/* .all-first5 span:nth-child(n+6):nth-child(-n+11){
+    background-color:orange;
+} */
+
+.first5 span:nth-child(-n+5) {
+    background-color:orange;
+}
+
+
+.select-fourth span:nth-child(4n+1) {
+    background-color:orange;
+}
+
+.select-last5 span:nth-child(n+6):nth-child(-n+10) {
+    background-color:orange;
+}
+
+.select-second-to-last span:nth-child(n+2):nth-child(-n+10){
+    background-color:orange;
+}
