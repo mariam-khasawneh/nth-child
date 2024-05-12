@@ -6,7 +6,14 @@ span{
     border: black solid 1px;
 }
 
-:nth-child(6n+1 of span), :nth-child(6n+2 of span) ,  :nth-child(6n+3 of span){
+ .odd span:nth-child(6n+1) , .odd span:nth-child(6n+2) , .odd span:nth-child(6n+3)  {
     background-color:green;
-}
+ } 
 
+ .even span:nth-child(n+4):nth-child(-n+6){
+    background-color:green;
+ }
+
+ div , span {
+    margin: 15px;
+ }
