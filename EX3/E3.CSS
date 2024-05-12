@@ -1,0 +1,12 @@
+span{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: inline-block;
+    border: black solid 1px;
+}
+
+:nth-child(6n+1 of span), :nth-child(6n+2 of span) ,  :nth-child(6n+3 of span){
+    background-color:green;
+}
+
