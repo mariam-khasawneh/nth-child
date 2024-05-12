@@ -1,0 +1,17 @@
+span{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    display: inline-block;
+    border: black solid 1px;
+}
+
+:nth-child(even of span){
+    background-color: green;
+    
+}
+
+:nth-child(odd of span){
+    background-color: yellow;
+    margin-bottom: 50px;
+}
